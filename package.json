@@ -10,7 +10,7 @@
     "clean:all": "npm run clean && node ./scripts/run clean:all && lerna clean --yes",
     "build": "node ./scripts/run build",
     "format": "node ./scripts/run format",
-    "publish:test": "lerna version --conventional-commits --no-push",
+    "publish:pre": "lerna version --conventional-commits --no-push",
     "publish:all": "lerna publish --conventional-commits"
   },
   "devDependencies": {
