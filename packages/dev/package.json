@@ -1,7 +1,7 @@
 {
   "name": "@web0js/dev",
   "description": "Common development scripts and config files for Web0 projects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": {
     "access": "public"
   },
