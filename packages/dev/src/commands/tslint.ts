@@ -1,7 +1,3 @@
-import { runCommand, tslint as runTSLint } from './commands'
+import { tslint as runTSLint } from '../binaries'
 
 export const tslint = (argv: string[]): Promise<number> => runTSLint('--project', 'tsconfig.json', '--fix', ...argv)
-
-if (require.main === module) {
-  runCommand(tslint)
-}

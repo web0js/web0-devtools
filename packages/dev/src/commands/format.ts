@@ -1,7 +1,3 @@
-import { runCommand, prettier } from './commands'
+import { prettier } from '../binaries'
 
 export const format = (argv: string[]): Promise<number> => prettier('--write', ...argv, 'src/**/*.ts', '**/*.js')
-
-if (require.main === module) {
-  runCommand(format)
-}

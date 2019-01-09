@@ -10,8 +10,8 @@
     "clean:all": "npm run clean && node ./scripts/run clean:all && lerna clean --yes",
     "build": "node ./scripts/run build",
     "format": "node ./scripts/run format",
-    "publish:try": "lerna version --no-push",
-    "publish:now": "lerna publish"
+    "publish:try": "npm run build && lerna version --no-push",
+    "publish:now": "npm run build && lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.10.1"

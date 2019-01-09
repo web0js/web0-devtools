@@ -1,6 +1,5 @@
-const { runCommand } = require('../packages/dev/lib/commands')
-const { add } = require('../packages/dev/lib/add')
+const { cli } = require('../packages/dev/lib/cli')
 
 if (require.main === module) {
-  runCommand(add)
+  cli(['add', ...process.argv.slice(2)])
 }

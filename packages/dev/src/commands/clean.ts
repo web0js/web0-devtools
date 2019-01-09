@@ -1,7 +1,3 @@
-import { runCommand, rimraf } from './commands'
+import { rimraf } from '../binaries'
 
 export const clean = (argv: string[]): Promise<number> => rimraf('lib', 'coverage', 'package-lock.json', ...argv)
-
-if (require.main === module) {
-  runCommand(clean)
-}
