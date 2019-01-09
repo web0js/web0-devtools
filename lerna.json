@@ -4,8 +4,9 @@
   ],
   "version": "0.0.1",
   "command": {
-    "publish": {
-      "allowBranch": "master"
+    "version": {
+      "allowBranch": "master",
+      "message": "dev: publish %s"
     }
   }
 }
