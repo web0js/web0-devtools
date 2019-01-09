@@ -5,6 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": "web0js/web0-devtools",
   "scripts": {
     "clean:all": "node ./lib/clean",
     "build": "tsc",
