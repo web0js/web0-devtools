@@ -1,0 +1,17 @@
+{
+  "name": "web0-devtools",
+  "private": true,
+  "scripts": {
+    "boot": "lerna bootstrap --hoist",
+    "postboot": "npm run init",
+    "init": "cd ./packages/dev && npm run build",
+    "link": "lerna link",
+    "clean": "node ./scripts/run clean",
+    "clean:all": "npm run clean && node ./scripts/run clean:all && lerna clean --yes",
+    "build": "node ./scripts/run build",
+    "format": "node ./scripts/run format"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.1"
+  }
+}
