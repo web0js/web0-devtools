@@ -1,7 +1,7 @@
 {
   "name": "@web0js/dev",
   "description": "Common development scripts and config files for Web0 projects",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "repository": "https://github.com/web0js/web0-devtools/tree/master/packages/dev",
   "bin": {
     "web0-dev": "./lib/cli.js"

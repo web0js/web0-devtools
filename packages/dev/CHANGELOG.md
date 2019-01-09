@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/web0js/web0-devtools/tree/master/packages/dev/compare/v0.0.3...v0.1.0) (2019-01-09)
+
+
+### Features
+
+* publish web0-dev binary ([3763b8f](https://github.com/web0js/web0-devtools/tree/master/packages/dev/commit/3763b8f))
+
+
+
+
+
 ## [0.0.3](https://github.com/web0js/web0-devtools/tree/master/packages/dev/compare/v0.0.2...v0.0.3) (2019-01-09)
 
 
