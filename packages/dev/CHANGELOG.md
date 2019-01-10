@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/web0js/web0-devtools/tree/master/packages/dev/compare/v0.1.0...v0.1.1) (2019-01-10)
+
+
+### Bug Fixes
+
+* add missing shebang ([2f23d97](https://github.com/web0js/web0-devtools/tree/master/packages/dev/commit/2f23d97))
+
+
+
+
+
 # [0.1.0](https://github.com/web0js/web0-devtools/tree/master/packages/dev/compare/v0.0.3...v0.1.0) (2019-01-09)
 
 
