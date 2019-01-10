@@ -11,7 +11,8 @@
     "build": "tsc",
     "format": "node ./lib/cli format",
     "postformat": "npm run tslint",
-    "tslint": "node ./lib/cli tslint"
+    "tslint": "node ./lib/cli tslint",
+    "publish:prepare": "npm run clean:all && npm run build"
   },
   "publishConfig": {
     "access": "public"
